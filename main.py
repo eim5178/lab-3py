@@ -13,16 +13,16 @@ def sum_n(n):
 
 def print_n(s,n):
   if (n<1):
-    print("\n")
+    print("")
   elif(n<=1):
-    print(f"{s}\n")
+    print(f"{s}")
   else:
-    print(f"{s}\n")
+    print(f"{s}")
     n = print_n (s, n-1)
 
 def run():
   n = int(input("Enter an int: "))
-  print(f"sum is {sum_n(n)}.\n")
+  print(f"sum is {sum_n(n)}.")
   s = input("Enter a string: ")
   print_n(s,n)
 

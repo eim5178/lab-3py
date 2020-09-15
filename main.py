@@ -12,7 +12,9 @@ def sum_n(n):
     return n + sum_n(n-1)
 
 def print_n(s,n):
-  if (n<=1):
+  if (n<1):
+    print("\n")
+  elif(n<=1):
     print(f"{s}\n")
   else:
     print(f"{s}\n")
